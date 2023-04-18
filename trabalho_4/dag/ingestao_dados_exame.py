@@ -14,7 +14,7 @@ default_args = {
 }
 
 dag = DAG(
-    'a_dag',
+    'ingestao_dados_exame',
     default_args=default_args,
     description='Copiar dados de exames, fazer a normalizacao e inserir no StorageAccount',
     schedule_interval="0 */2 * * *",
